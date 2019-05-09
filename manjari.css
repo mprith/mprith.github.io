@@ -1,0 +1,57 @@
+.im-sean {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  color: #45b29a;
+}
+
+.masthead-wrap {
+  background-color: #E0EBE8
+}
+
+.nav>li>a {
+  font-size: 19px;
+  color:white;
+  font-weight: 500;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus,
+.nav>li>a:hover, .nav>li>a:focus {
+  color: #21564b;
+  background-color: #45b29a;
+}
+
+header.nav-root {
+  background-color: #44B299;
+}
+
+#header-logo .mask {
+  background-image: url(./assets/mask.png);
+  background-size: 72px 72px;
+}
+
+.intro {
+  border-radius: 50%;
+}
+
+#hello article figure {
+  max-width: 200px;
+}
+
+#what-i-do .home-dev-info img {
+  max-width: 200px;
+}
+
+.work-shots {
+  padding: 0;
+}
+
+.project {
+  min-height: 500px;
+  margin-bottom: 30px;
+}
+
+.btn-hldr .main-btn {
+  background: rgba(76, 175, 80,0.7);
+  border-radius: 10px;
+}
