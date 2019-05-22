@@ -7002,14 +7002,14 @@ article header h2 {
   animation-duration: 20s;
   animation-iteration-count: infinite;
   animation-timing-function: cubic-bezier(1, 0, 0, 1);
-  background-image: url(../img/content/home/what-i-do/design-icons-vert.png);
+  background-image: url(./assets/design-icons-vert.png);
 }
 @media (-webkit-min-device-pixel-ratio: 1.5),
   (min--moz-device-pixel-ratio: 1.5),
   (-o-min-device-pixel-ratio: 1.5),
   (min-resolution: 1.5dppx) {
   #what-i-do .bubble .bubbling-design-icons-vert {
-    background-image: url(../img/content/home/what-i-do/design-icons-vert@2x.png);
+    background-image: url(./assets/design-icons-vert@2x.png);
     background-size: 77px 231px;
   }
 }
@@ -7034,14 +7034,14 @@ article header h2 {
   animation-delay: 1s;
   animation-iteration-count: infinite;
   animation-timing-function: cubic-bezier(1, 0, 0, 1);
-  background-image: url(../dev-icons-vert.png);
+  background-image: url(./assets/dev-icons-vert.png);
 }
 @media (-webkit-min-device-pixel-ratio: 1.5),
   (min--moz-device-pixel-ratio: 1.5),
   (-o-min-device-pixel-ratio: 1.5),
   (min-resolution: 1.5dppx) {
   #what-i-do .bubble .bubbling-dev-icons-vert {
-    background-image: url(../dev-icons-vert@2x.png);
+    background-image: url(./assets/dev-icons-vert@2x.png);
     background-size: 77px 231px;
   }
 }
@@ -7114,31 +7114,14 @@ article header h2 {
   width: 24px;
   left: 11%;
   top: 33%;
-  background-image: url(../img/content/home/contact/mail.png);
+  background-image: url(./assets/mail.png);
 }
 @media (-webkit-min-device-pixel-ratio: 1.5),
   (min--moz-device-pixel-ratio: 1.5),
   (-o-min-device-pixel-ratio: 1.5),
   (min-resolution: 1.5dppx) {
   .btn-hldr .main-btn i.email {
-    background-image: url(../img/content/home/contact/mail@2x.png);
-    background-size: 24px 15px;
-  }
-}
-.btn-hldr .main-btn i.drib {
-  position: absolute;
-  height: 15px;
-  width: 24px;
-  left: 12%;
-  top: 38%;
-  background-image: url(../img/ui/drib.png);
-}
-@media (-webkit-min-device-pixel-ratio: 1.5),
-  (min--moz-device-pixel-ratio: 1.5),
-  (-o-min-device-pixel-ratio: 1.5),
-  (min-resolution: 1.5dppx) {
-  .btn-hldr .main-btn i.drib {
-    background-image: url(../img/ui/drib@2x.png);
+    background-image: url(./assets/mail@2x.png);
     background-size: 24px 15px;
   }
 }
@@ -7501,7 +7484,7 @@ footer .footer-list a:hover {
 }
 .work-shots .shadow {
   margin-top: -57px;
-  background-image: url(../img/content/work/shadow.png);
+  background-image: url(./assets/shadow.png);
   width: 100%;
   height: 57px;
 }
@@ -7510,7 +7493,7 @@ footer .footer-list a:hover {
   (-o-min-device-pixel-ratio: 1.5),
   (min-resolution: 1.5dppx) {
   .work-shots .shadow {
-    background-image: url(../img/content/work/shadow@2x.png);
+    background-image: url(./assets/shadow@2x.png);
     background-size: 940px 57px;
   }
 }
@@ -7742,7 +7725,7 @@ footer .footer-list a:hover {
 .error .error--white-small-one {
   width: 175px;
   height: 214px;
-  background-image: url(../img/ui/error/white--small--1.png);
+  background-image: url(./assets/white--small--1.png);
   z-index: 950;
   left: 0;
   bottom: -120px;
@@ -7756,14 +7739,14 @@ footer .footer-list a:hover {
   (-o-min-device-pixel-ratio: 1.5),
   (min-resolution: 1.5dppx) {
   .error .error--white-small-one {
-    background-image: url(../img/ui/error/white--small--1@2x.png);
+    background-image: url(./assets/white--small--1@2x.png);
     background-size: 175px 214px;
   }
 }
 .error .error--pink-big-two {
   width: 308px;
   height: 379px;
-  background-image: url(../img/ui/error/pink--big--2.png);
+  background-image: url(./assets/pink--big--2.png);
   z-index: 940;
   left: 87px;
   bottom: -101px;
@@ -7777,14 +7760,14 @@ footer .footer-list a:hover {
   (-o-min-device-pixel-ratio: 1.5),
   (min-resolution: 1.5dppx) {
   .error .error--pink-big-two {
-    background-image: url(../img/ui/error/pink--big--2@2x.png);
+    background-image: url(./assets/pink--big--2@2x.png);
     background-size: 308px 379px;
   }
 }
 .error .error--green-big-three {
   width: 366px;
   height: 482px;
-  background-image: url(../img/ui/error/green--big--3.png);
+  background-image: url(./assets/green--big--3.png);
   z-index: 960;
   left: 50%;
   margin-left: -209px;
@@ -7799,14 +7782,14 @@ footer .footer-list a:hover {
   (-o-min-device-pixel-ratio: 1.5),
   (min-resolution: 1.5dppx) {
   .error .error--green-big-three {
-    background-image: url(../img/ui/error/green--big--3@2x.png);
+    background-image: url(./assets/green--big--3@2x.png);
     background-size: 366px 482px;
   }
 }
 .error .error--white-small-four {
   width: 175px;
   height: 232px;
-  background-image: url(../img/ui/error/white-small--4.png);
+  background-image: url(./assets/white-small--4.png);
   z-index: 970;
   left: 575px;
   bottom: -139px;
@@ -7820,14 +7803,14 @@ footer .footer-list a:hover {
   (-o-min-device-pixel-ratio: 1.5),
   (min-resolution: 1.5dppx) {
   .error .error--white-small-four {
-    background-image: url(../img/ui/error/white-small--4@2x.png);
+    background-image: url(./assets/white-small--4@2x.png);
     background-size: 175px 232px;
   }
 }
 .error .error--white-big-five {
   width: 309px;
   height: 385px;
-  background-image: url(../img/ui/error/white--big--5.png);
+  background-image: url(./assets/white--big--5.png);
   z-index: 930;
   left: 540px;
   bottom: -35px;
@@ -7841,14 +7824,14 @@ footer .footer-list a:hover {
   (-o-min-device-pixel-ratio: 1.5),
   (min-resolution: 1.5dppx) {
   .error .error--white-big-five {
-    background-image: url(../img/ui/error/white--big--5@2x.png);
+    background-image: url(./assets/white--big--5@2x.png);
     background-size: 309px 385px;
   }
 }
 .error .error--pink-small-six {
   width: 171px;
   height: 212px;
-  background-image: url(../img/ui/error/pink--small--6.png);
+  background-image: url(./assets/pink--small--6.png);
   z-index: 940;
   left: 765px;
   bottom: -42px;
@@ -7862,7 +7845,7 @@ footer .footer-list a:hover {
   (-o-min-device-pixel-ratio: 1.5),
   (min-resolution: 1.5dppx) {
   .error .error--pink-small-six {
-    background-image: url(../img/ui/error/pink--small--6@2x.png);
+    background-image: url(./assets/pink--small--6@2x.png);
     background-size: 171px 212px;
   }
 }
@@ -7870,7 +7853,7 @@ footer .footer-list a:hover {
   display: none;
   width: 136px;
   height: 135px;
-  background-image: url(../img/ui/error/cloud-big.png);
+  background-image: url(./assets/cloud-big.png);
   z-index: 980;
   left: -160px;
   top: 100px;
@@ -7880,7 +7863,7 @@ footer .footer-list a:hover {
   (-o-min-device-pixel-ratio: 1.5),
   (min-resolution: 1.5dppx) {
   .error .cloud--big-one {
-    background-image: url(../img/ui/error/cloud-big@2x.png);
+    background-image: url(./assets/cloud-big@2x.png);
     background-size: 136px 135px;
   }
 }
@@ -7892,7 +7875,7 @@ footer .footer-list a:hover {
 .error .cloud--small-two {
   width: 95px;
   height: 95px;
-  background-image: url(../img/ui/error/cloud-small.png);
+  background-image: url(./assets/cloud-small.png);
   z-index: 980;
   left: 54%;
   top: 215px;
@@ -7906,7 +7889,7 @@ footer .footer-list a:hover {
   (-o-min-device-pixel-ratio: 1.5),
   (min-resolution: 1.5dppx) {
   .error .cloud--small-two {
-    background-image: url(../img/ui/error/cloud-small@2x.png);
+    background-image: url(./assets/cloud-small@2x.png);
     background-size: 95px 95px;
   }
 }
@@ -7914,7 +7897,7 @@ footer .footer-list a:hover {
   display: none;
   width: 136px;
   height: 135px;
-  background-image: url(../img/ui/error/cloud-big.png);
+  background-image: url(./assets/cloud-big.png);
   z-index: 980;
   right: -160px;
   top: 140px;
@@ -7924,7 +7907,7 @@ footer .footer-list a:hover {
   (-o-min-device-pixel-ratio: 1.5),
   (min-resolution: 1.5dppx) {
   .error .cloud--big-three {
-    background-image: url(../img/ui/error/cloud-big@2x.png);
+    background-image: url(./assets/cloud-big@2x.png);
     background-size: 136px 135px;
   }
 }
@@ -7937,7 +7920,7 @@ footer .footer-list a:hover {
   display: none;
   width: 95px;
   height: 95px;
-  background-image: url(../img/ui/error/cloud-small.png);
+  background-image: url(./assets/cloud-small.png);
   z-index: 980;
   left: -120px;
   top: 415px;
@@ -7951,7 +7934,7 @@ footer .footer-list a:hover {
   (-o-min-device-pixel-ratio: 1.5),
   (min-resolution: 1.5dppx) {
   .error .cloud--small-four {
-    background-image: url(../img/ui/error/cloud-small@2x.png);
+    background-image: url(./assets/cloud-small@2x.png);
     background-size: 95px 95px;
   }
 }
