@@ -7034,7 +7034,7 @@ article header h2 {
   animation-delay: 1s;
   animation-iteration-count: infinite;
   animation-timing-function: cubic-bezier(1, 0, 0, 1);
-  background-image: url(./assets/dev-icons-vert.png);
+  background-image: url(./assets/dev-icons-vert@2x.png);
 }
 @media (-webkit-min-device-pixel-ratio: 1.5),
   (min--moz-device-pixel-ratio: 1.5),
